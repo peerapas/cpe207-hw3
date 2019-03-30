@@ -17,7 +17,7 @@ function onSubmit(e) {
         // msg.innerHTML = 'Please enter all fields!';
     } else {
         const li = document.createElement('li');
-        const text = document.createTextNode(`${nameInput.value} : ${emailInput.value} : ${messageInput.value}`);
+        const text = document.createTextNode(`Name : ${nameInput.value} Email : ${emailInput.value} Message : ${messageInput.value}`);
         console.log(`${nameInput.value}`);
         
         li.appendChild(text);
